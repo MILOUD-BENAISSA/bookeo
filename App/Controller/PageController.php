@@ -32,6 +32,7 @@ class PageController extends Controller
             ]);
         }
     }
+    // exemple d'appel depuis l'url?controller=page&action=about
     protected function about()
     {
         // on pourrait récupérer les données en faisant appel ou modéle
@@ -41,6 +42,7 @@ class PageController extends Controller
             'test3' => 'abc3'
         ]);
     }
+     // exemple d'appel depuis l'url?controller=page&action=home
     protected function home()
     {
 

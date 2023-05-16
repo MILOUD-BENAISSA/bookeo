@@ -41,6 +41,7 @@ class BookController extends Controller
             ]);
         }
     }
+    // exemple d'appel depuis l'url?controller=book=show&id=1
     protected function show()
     {
         try {
